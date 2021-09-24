@@ -16,4 +16,4 @@ spec:
       - image: dorowu/ubuntu:focal-lxqt
         name: ubuntu
         ports:
-        - containerPort: 80
+        - containerPort: 81
