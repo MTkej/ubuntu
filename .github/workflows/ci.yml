@@ -1,9 +1,8 @@
 #=================================================
-# https://github.com/lhx11187/ubuntu-desktop-lxqt-vnc-okteto
-# Description: ubuntu-desktop-lxqt-vnc-okteto
+# https://github.com/MTkej/ubuntu
+# Description: ubuntu
 # Lisence: MIT
-# Author: lhx11187
-# Blog: https://www.txdn.tk
+# Author: MTkej
 #=================================================
 
 # 编译的名称
@@ -57,7 +56,7 @@ jobs:
     - name: "激活命名空间"
       uses: okteto/namespace@master
       with:
-        name: lhx11187
+        name: MTkej
 
     - name: "销毁流程"
       uses: okteto/destroy-pipeline@master
@@ -72,5 +71,5 @@ jobs:
     - name: "上传至okteto"
       uses: okteto/push@master
       with:
-        namespace: lhx11187
-        name: ubuntu-desktop-lxqt-vnc-okteto
+        namespace: MTkej
+        name: ubuntu
